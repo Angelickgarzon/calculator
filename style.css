@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(128, 184, 230);
+}
+.contenedor {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.display {
+  background-color: beige;
+  text-align: right;
+  padding: 10px;
+}
+.caja-botones {
+  background-color: gray;
+  display: flex;
+  padding: 10px;
+}
+
+.numeros {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 3px;
+  margin: 5px auto;
+}
+.operaciones {
+  display: flex;
+  flex-direction: row;
+  margin: 5px auto;
+  gap: 3px;
+}
+.cero {
+  grid-column: 2 / 3;
+}
+
+.numeros button {
+  border: green 2px solid;
+}
+.operaciones button {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.operaciones .igual {
+  background-color: tomato;
+}
